@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const downloadRouter = require("./router/router");
 const app = express();
-const dotenv = require("dotenv").config();
 
 const port = 3001;
 app.use(cors());
